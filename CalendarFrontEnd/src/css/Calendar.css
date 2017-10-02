@@ -1,0 +1,111 @@
+#CalendarHeader {
+  height: 36px;
+  font-size: 30px;
+}
+
+#days-of-week {
+  height: 20px;
+  border: 1px dashed;
+}
+
+#day-zone {
+  height:438px;
+}
+
+#events-panel {
+  margin-top:140px;
+  width:250px;
+  border:3px solid black;
+  float:right;
+}
+
+#event-box-header {
+  text-align: center;
+  border-bottom: 3px black solid;
+}
+
+#main-calendar {
+  margin-top:75px;
+  height:500px;
+  width:800px;
+  float:left;
+}
+
+#main-title {
+  text-align:center;
+  font-size:48px;
+}
+
+#month-year {
+  width:34%;
+  text-align:center;
+}
+
+#nextmonth {
+  float: right;
+  width: 33%;
+  text-align:right;
+}
+
+#new-events-panel {
+  text-align:center;
+}
+
+#previousmonth {
+  float: left;
+  width: 33%;
+}
+
+#selected-day {
+  background-color: black;
+  color: white;
+}
+
+.beautiful-day:hover {
+  cursor:pointer;
+  background-color: black;
+  color: white;
+}
+
+.day-box {
+  float:left;
+  width: 14.28571428571%;
+  height:73px;
+  border: 1px solid;
+  text-align: right;
+  font-size:18px;
+  box-sizing: border-box;
+  /*cursor:pointer;*/
+}
+
+.day-of-week-ind {
+  float:left;
+  width: 14.28571428571%;
+  text-align: center;
+  font-size:15px;
+  display:inline-block;
+}
+
+.float-left {
+  float:left;
+  text-align:left;
+}
+
+.float-right {
+  float:right;
+  text-align:right;
+}
+
+.event-ind {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
